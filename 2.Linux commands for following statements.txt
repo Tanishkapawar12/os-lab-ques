@@ -1,0 +1,12 @@
+#Redirect the output of ls command to a file named outfile. Use this as an input file
+1: ls >> outfile
+#To select the lines in a file which has digit as one of the character in that
+line and redirect the output to the file named list.
+2: grep "[0-9]" file >> list
+#Assign execute permission to owner and remove read permission from
+other for an ordinary file named test by relative way.
+3: chmod u+x test ;chmod o-r test
+#Create an alias named rm that always deletes file interactively.
+4: alias rm='rm -i'
+# Count the currently login users to the system.
+5: who
